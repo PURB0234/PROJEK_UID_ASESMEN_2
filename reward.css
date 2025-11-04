@@ -223,7 +223,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
-    font-family: Montserrat, sans-serif;
   /* background-color: #d1d1d1; */
 }
 
@@ -237,6 +236,7 @@ body {
 }
 
 .card-footer button {
+    font-family: Montserrat, sans-serif;
   background-color: #3366CCFF;
   color: #ffffffff;
   border: none;
