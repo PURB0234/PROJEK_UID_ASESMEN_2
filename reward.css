@@ -232,6 +232,7 @@ body {
   border-radius: 20px;
   padding: 4px 10px;
   font-size: 13px;
+    font-family: Montserrat, sans-serif;
 }
 
 .card-footer button {
