@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #fff;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #ddd;
+}
+
+.logo_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_box {
+    display: flex;
+    align-items: center;
+}
+
+.logo_icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+.logo {
+    color: #3366cc;
+}
+
+.container_nav_logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #eee;
+}
+
+.logout {
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.right_area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar input {
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.main {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 30px 40px;
+    overflow-y: auto;
+}
+.stepbox{
+    border: 1px solid #ddd;
+    width: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: Inter, sans-serif;
+    padding: 10px;
+}
+.stepbox h1{
+    color: #3366cc;
+    padding: 10px;
+}
+.stepbox image{
+    width: 50px;
+    height: 10px;
+    padding: 10px;
+}
+.stepbox h3{
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ffffffff;
+    padding: 15px;
+    border-width: 1px;
+}
+
+.footer .links span {
+    margin: 0 10px;
+    color: #555;
+}
+
+.button_help {
+    width: 218px;
+    height: 40px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #ffffffff;
+    background: #3366ccff;
+    opacity: 1;
+    border: none;
+    border-radius: 6px;
+}
