@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StepUp Dashboard</title>
     <link rel="stylesheet" href="leaderboard_style.css" />
+    <link rel="stylesheet" href="style_side_nav_main_footer.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   </head>
   <body>
     <div class="container">
-     
       <aside class="sidebar">
         <div class="logo_container">
           <div class="logo_box">
@@ -21,7 +22,7 @@
         <div class="container_nav_logout">
           <nav>
             <ul>
-              <li><a href="#">Dashboard</a></li>
+              <li><a href="dashboard.html">Dashboard</a></li>
               <li><a href="reward_page.html">Rewards</a></li>
               <li><a href="#">Leaderboard</a></li>
               <li><a href="#">Settings</a></li>
@@ -30,25 +31,67 @@
           </nav>
 
           <div>
-              <button class="button_help">Help & Support</button>
-              <a href="#" class="logout">Log Out</a>
+            <button class="button_help">Help & Support</button>
+            <a href="index.html" class="logout">Log Out</a>
           </div>
         </div>
       </aside>
 
       <div class="right_area">
-       
         <header class="navbar">
           <div class="nav_right">
             <div class="profile">Profile</div>
-            <input type="text" placeholder="Search rewards..." />
+            <div class="nav_search">
+              <i class="bi bi-search"></i>
+              <input type="text" placeholder="Search rewards..." />
+            </div>
+            <i class="bi bi-bell"></i>
+            <div class="nav_image_profile">
+              <!-- <img src="" alt=""> -->
+            </div>
           </div>
         </header>
 
         <main class="main">
-         leaderboard_page
+          <h2>Leaderboard</h2>
+
+          <div class="feauture">
+            <button id="daily">Daily</button>
+            <button id="weekly">Weekly</button>
+            <button id="monthly">Monthly</button>
+          </div>
+
+          <div class="container_table">
+            <table>
+              <thead>
+                <tr>
+                  <td>Rank</td>
+                  <td>Players</td>
+                  <td>Points</td>
+                  <td>Actions</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td class="user_name">JabranVronka</td>
+                  <td class="data_users">234000 pts</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Ucing</td>
+                  <td class="data_users">234675 pts</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Ayam</td>
+                  <td class="data_users">234890 pts</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </main>
-        
+
         <footer class="footer">
           <div class="links">
             <span>Resources</span>
