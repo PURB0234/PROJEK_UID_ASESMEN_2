@@ -83,11 +83,11 @@
   border-radius: 20px;
   padding: 4px 10px;
   font-size: 13px;
-    font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .card-footer button {
-    font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: #3366CCFF;
   color: #ffffffff;
   border: none;
@@ -96,6 +96,7 @@
   cursor: pointer;
   width: 100%;
 }
+
 .card_description {
   height: 50%;
   display: flex;
@@ -103,7 +104,7 @@
   justify-content: center;
   align-items: center;
 }
-#img {
+.img {
   width: 100%;
   height: 100%;
   /* border-radius: 6px; */
