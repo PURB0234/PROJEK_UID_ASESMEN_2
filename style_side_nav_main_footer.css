@@ -73,10 +73,17 @@ body {
   padding: 10px;
   display: block;
   border-radius: 5px;
+  font-weight: 500;
 }
 
 .sidebar ul li a:hover {
   background-color: #eee;
+}
+
+.container_icon_sidebar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logout {
@@ -84,6 +91,12 @@ body {
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
+}
+.container_logout {
+  display: flex;
+  flex-direction: row;
+  color: red;
+  align-items: center;
 }
 
 .right_area {
@@ -120,6 +133,11 @@ body {
   align-items: center;
   border: 1px solid #dee1e6ff;
   padding-left: 10px;
+  border-radius: 6px;
+}
+
+.nav_search i {
+  font-weight: 600;
 }
 
 .nav_image_profile {
@@ -131,7 +149,7 @@ body {
 
 .main {
   flex: 1;
-  background-color: #f4f4f4;
+  background-color: #FAFAFBFF;
   padding: 30px 40px;
   overflow-y: auto;
 }
@@ -139,7 +157,7 @@ body {
   text-align: center;
   background-color: #ffffffff;
   padding: 15px;
-  border-width: 1px;
+  border-top: 1px solid #DEE1E6FF;
 }
 
 .footer .links span {

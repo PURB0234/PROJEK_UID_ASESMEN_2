@@ -34,22 +34,34 @@
   border-radius: 6px;
 }
 .container_table {
-  height: 100vh;
+  /* height: 100vh; */
+  /* background-color: aqua; */
+  margin-top: 20px;
 }
 .container_table table {
   width: 100%;
   border-collapse: collapse;
 }
+
 table {
   font-family: serif;
 }
 thead {
-  /* background-color: #00000000; */
+  background-color: #ffffff;
   height: 50px;
-  border: 0.5px solid black;
+  border: 1px solid rgb(214, 209, 209);
+  font-weight: 600;
+  color: #565D6DFF;
 }
 tr, td {
   padding: 15px;
+}
+tbody {
+  background-color: #FAFAFBFF;
+}
+.number {
+  font-weight: 700;
+  color: #171A1FFF;
 }
 .data_users {
   color: #3366CCFF;
@@ -57,4 +69,35 @@ tr, td {
 .user_name {
   color: #171A1FFF;
   line-height: 24px;
+}
+.container_rank_user {
+  background-color: #F3F6FCFF;
+  width: 100%;
+  height: 170px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.container_avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #3366cc;
+  margin-right: 7px;
+}
+
+.container_rank_user h2 {
+  padding: 20px;
+}
+.container_rank_user div {
+  padding: 5px;
+  background-color: #FAFAFBFF;
+  margin-left: 20px;
+  margin-right: 20px;
 }

@@ -22,17 +22,49 @@
         <div class="container_nav_logout">
           <nav>
             <ul>
-              <li><a href="dashboard.html">Dashboard</a></li>
-              <li><a href="reward_page.html">Rewards</a></li>
-              <li><a href="#">Leaderboard</a></li>
-              <li><a href="#">Settings</a></li>
-              <li><a href="#">My Challenges</a></li>
+              <li>
+                <div class="container_icon_sidebar">
+                  <i class="bi bi-columns-gap"></i>
+                  <a href="dashboard.html">Dashboard</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="container_icon_sidebar">
+                  <i class="bi bi-gift"></i>
+                  <a href="reward_page.html">Rewards</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="container_icon_sidebar">
+                  <i class="bi bi-trophy"></i>
+                  <a href="#">Leaderboard</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="container_icon_sidebar">
+                  <i class="bi bi-gear"></i>
+                  <a href="#">Settings</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="container_icon_sidebar">
+                  <i class="bi bi-list-check"></i>
+                  <a href="#">My Challenges</a>
+                </div>
+              </li>
             </ul>
           </nav>
 
           <div>
             <button class="button_help">Help & Support</button>
-            <a href="index.html" class="logout">Log Out</a>
+            <div class="container_logout">
+              <i class="bi bi-box-arrow-right"></i>
+              <a href="index.html" class="logout">Log Out</a>
+            </div>
           </div>
         </div>
       </aside>
@@ -54,13 +86,13 @@
 
         <main class="main">
           <h2>Leaderboard</h2>
-
+      
           <div class="feauture">
             <button id="daily">Daily</button>
             <button id="weekly">Weekly</button>
             <button id="monthly">Monthly</button>
           </div>
-
+      
           <div class="container_table">
             <table>
               <thead>
@@ -68,27 +100,141 @@
                   <td>Rank</td>
                   <td>Players</td>
                   <td>Points</td>
-                  <td>Actions</td>
+                  <!-- <td>Actions</td> -->
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>1</td>
-                  <td class="user_name">JabranVronka</td>
+                  <td class="number">1</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                        <div class="avatar"></div>
+                        JabranVronka
+                      </div>
+                    </td>
                   <td class="data_users">234000 pts</td>
                 </tr>
+
                 <tr>
-                  <td>2</td>
-                  <td>Ucing</td>
+                  <td class="number">2</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      Ucing
+                    </div>
+                  </td>
                   <td class="data_users">234675 pts</td>
                 </tr>
+
                 <tr>
-                  <td>3</td>
-                  <td>Ayam</td>
+                  <td class="number">3</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      Ayam
+                    </div>
+                  </td>
+                  <td class="data_users">234890 pts</td>
+                </tr>
+
+                <tr>
+                  <td class="number">4</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      Ayam
+                    </div>
+                  </td>
+                  <td class="data_users">234890 pts</td>
+                </tr>
+
+                <tr>
+                  <td class="number">5</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      gorengan
+                    </div>
+                  </td>
+                  <td class="data_users">234890 pts</td>
+                </tr>
+
+                <tr>
+                  <td class="number">6</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      citah
+                    </div>
+                  </td>
+                  <td class="data_users">234890 pts</td>
+                </tr>
+
+                <tr>
+                  <td class="number">7</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      kelinci
+                    </div>
+                  </td>
+                  <td class="data_users">234890 pts</td>
+                </tr>
+
+                <tr>
+                  <td class="number">8</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      kambing
+                    </div>
+                  </td>
+                  <td class="data_users">234890 pts</td>
+                </tr>
+
+                <tr>
+                  <td class="number">9</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      domba
+                    </div>
+                  </td>
+                  <td class="data_users">234890 pts</td>
+                </tr>
+
+                <tr>
+                  <td class="number">10</td>
+                  <td class="user_name">
+                    <div class="container_avatar">
+                      <div class="avatar"></div>
+                      rusa
+                    </div>
+                  </td>
                   <td class="data_users">234890 pts</td>
                 </tr>
               </tbody>
             </table>
+          </div>
+      
+          <div class="container_rank_user">
+            <h2>Your Rank</h2>
+            <div>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="number">100</td>
+                    <td class="user_name">
+                      <div class="container_avatar">
+                        <div class="avatar"></div>
+                        JabranVronka
+                      </div>
+                    </td>
+                    <td class="data_users">234000 pts</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </main>
 
@@ -102,4 +248,5 @@
       </div>
     </div>
   </body>
-</html>
+  </html>
+  
