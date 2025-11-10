@@ -13,27 +13,22 @@
   justify-content: space-between;
   margin-top: 10px;
 }
-.feauture button {
+#weekly {
   padding: 7px 12px;
   background-color: #3366CCFF;
   color: #FFFFFFFF;
   border: 1px solid #DEE1E6FF;
   border-radius: 6px;
 }
-#daily {
+
+.button_filter {
   padding: 7px 12px;
   background-color: #FFFFFFFF;
   color: rgb(0, 0, 0);
   border: 1px solid #DEE1E6FF;
   border-radius: 6px;
 }
-#monthly {
-  padding: 7px 12px;
-  background-color: #FFFFFFFF;
-  color: rgb(0, 0, 0);
-  border: 1px solid #DEE1E6FF;
-  border-radius: 6px;
-}
+
 .container_table {
   /* height: 100vh; */
   /* background-color: aqua; */
@@ -66,6 +61,7 @@ tbody {
 }
 .data_users {
   color: #3366CCFF;
+  font-weight: 700;
 }
 .user_name {
   color: #171A1FFF;
@@ -88,17 +84,28 @@ tbody {
 .avatar {
   width: 36px;
   height: 36px;
-  border-radius: 50%;
   background-color: #3366cc;
+  border-radius: 50%;
   margin-right: 7px;
+  /* overflow: hidden; */
+  object-fit: cover;
+}
+
+.img_avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
 }
 
 .container_rank_user h2 {
   padding: 20px;
 }
-.container_rank_user div {
+.background_rank_user {
   padding: 5px;
   background-color: #FAFAFBFF;
   margin-left: 20px;
   margin-right: 20px;
+}
+.container_rank_user table {
+  width: 100%;
 }
