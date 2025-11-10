@@ -26,12 +26,14 @@
     display: flex; flex-direction: row;
     margin: 10px;
 }
-.progress_bar i{
+#star{
     border: 1px solid #FF8C00FF;
     background-color: #FF8C00FF;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 10px;
     align-self: center;
+    width: 40px;
+    height: 40px;
 }
 
 .stepbox_claimrewards{
@@ -77,12 +79,17 @@
     font-size: 14px;
 }
 .gift_icon{
-    align-content: center;
-    margin: 10px;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.gift_icon img{
     border: 1px solid #FF8C00FF;
-    border-radius: 6px;
     background-color: #FF8C00FF;
+    border-radius: 8px;
+    padding: 10px;
+    align-self: center;
+    width: 40px;
+    height: 40px;
 }
 .percent_icon{
     align-content: center;

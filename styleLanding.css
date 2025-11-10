@@ -20,7 +20,6 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
-
 }
 nav{
     padding : 10px 0;
@@ -92,11 +91,11 @@ nav ul li a{
 .btn:hover{
     border-top-right-radius: 30px;
 }
-.anim{
-    opacity: 0;
-    transform: translateY(30px);
-    animation: moveup 0.5s linear forwards;
-}
+    .anim{
+        opacity: 0;
+        transform: translateY(30px);
+        animation: moveup 0.5s linear forwards;
+    }
 @keyframes moveup{
     100%{
         opacity: 1;
