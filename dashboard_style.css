@@ -33,8 +33,7 @@
     padding: 10px;
     align-self: center;
 }
-.dashboard_container {
-}
+
 .stepbox_claimrewards{
     display: flex; flex-direction: row;
 }
