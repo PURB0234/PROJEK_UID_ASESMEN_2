@@ -109,11 +109,16 @@
   height: 100%;
   /* border-radius: 6px; */
 }
-#spn_point {
-  color: #ffffffff;
-  background-color: #3366cc;
-  border-radius: 15px;
-  position: absolute;
-  bottom: 170px;
-  left: 290px;
+.container_points {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.container_points h3 {
+  color: #3366CCFF;
+}
+.container_points p {
+  color: #555;
+  font-size: small;
+  margin-bottom: 5px;
 }

@@ -59,6 +59,12 @@ tbody {
   font-weight: 700;
   color: #171A1FFF;
 }
+
+.number_for_top_three {
+  color: #3366cc;
+  font-weight: 700;
+}
+
 .data_users {
   color: #3366CCFF;
   font-weight: 700;
