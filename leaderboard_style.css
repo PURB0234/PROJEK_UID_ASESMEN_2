@@ -91,12 +91,6 @@ tbody {
   object-fit: cover;
 }
 
-.img_avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-}
-
 .container_rank_user h2 {
   padding: 20px;
 }

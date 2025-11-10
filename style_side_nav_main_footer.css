@@ -137,8 +137,8 @@ body {
   border-radius: 6px;
 }
 
-.nav_search i {
-  font-weight: 600;
+.nav_search input:focus {
+  outline: none;
 }
 
 .nav_image_profile {
@@ -186,4 +186,10 @@ body {
 .icon {
   width: 15px;
   height: 15px;
+}
+
+.img_avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
 }
