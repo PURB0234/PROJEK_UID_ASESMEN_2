@@ -62,3 +62,55 @@
     font-family: Inter, sans-serif;
     margin-top: 100px;
 }
+.challenge-button{
+    display: flex; flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.challenge-button a {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #222222;
+}
+.btn-1  {
+    display: flex; justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 6px;
+    width: 128px;
+    height: 40px;
+}
+.btn-1:hover{
+    background-color: #3366ccff;
+}
+.btn-1 a:hover{
+    color: white;
+
+}
+.btn-2{
+    display: flex; justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 6px;
+    width: 128px;
+    height: 40px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.btn-2:hover{
+    background-color: #3366ccff;
+}
+.btn-3{
+    display: flex; justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 6px;
+    width: 128px;
+    height: 40px;
+}
+.btn-3:hover{
+    background-color: #3366ccff;
+}
