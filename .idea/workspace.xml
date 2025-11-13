@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8db2d00d-4d47-486c-befa-4b49259712fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,8 @@
       <recent name="C:\Users\marie\WebstormProjects\StepUp\PROJEK_UID_ASESMEN_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marie\WebstormProjects\StepUp\PROJEK_UID_ASESMEN_2\assets\images" />
+      <recent name="C:\Users\marie\WebstormProjects\StepUp\PROJEK_UID_ASESMEN_2" />
       <recent name="C:\Users\marie\WebstormProjects\StepUp\PROJEK_UID_ASESMEN_2\images\icon" />
     </key>
   </component>
@@ -88,6 +91,8 @@
       <workItem from="1762658230627" duration="11790000" />
       <workItem from="1762684414671" duration="8746000" />
       <workItem from="1762747664900" duration="15370000" />
+      <workItem from="1763010947745" duration="1804000" />
+      <workItem from="1763012789635" duration="708000" />
     </task>
     <servers />
   </component>
