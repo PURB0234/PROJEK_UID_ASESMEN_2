@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8db2d00d-4d47-486c-befa-4b49259712fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/icon/medals.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon/people.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon/sparkles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon/target_bullseye.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/dashboard_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/dashboard_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +92,7 @@
       <workItem from="1762684414671" duration="8746000" />
       <workItem from="1762747664900" duration="15370000" />
       <workItem from="1763010947745" duration="1804000" />
-      <workItem from="1763012789635" duration="2455000" />
+      <workItem from="1763012789635" duration="3213000" />
     </task>
     <servers />
   </component>
