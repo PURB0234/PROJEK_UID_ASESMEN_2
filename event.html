@@ -16,7 +16,6 @@
             <div class="logo_icon"></div>
             <h2 class="logo">StepUp</h2>
           </div>
-          <span>A</span>
         </div>
 
         <div class="container_nav_logout">
@@ -58,18 +57,22 @@
       <div class="right_area">
         <header class="navbar">
           <div class="nav_right">
-            <div class="profile">Profile</div>
             <div class="nav_search">
-              <!-- <i class="bi bi-search"></i> -->
               <img class="icon" src="assets/icon/search.png" alt="" />
               <input type="text" placeholder="Search rewards..." />
             </div>
-            <!-- <i class="bi bi-bell"></i> -->
             <img class="icon" src="assets/icon/bell.png" alt="" />
-            <div class="nav_image_profile">
-              <img class="img_avatar" src="assets/avatar/2.jpg" alt="" />
-            </div>
+            <button class="button_profile" onclick="menu.hidden^=1">
+              <div class="nav_image_profile">
+                <img class="img_avatar" src="assets/avatar/2.jpg" alt="" />
+              </div>
+            </button>
           </div>
+
+          <ul id="menu" hidden>
+            <li>Profile</li>
+            <li>Settings</li>
+          </ul>
         </header>
 
         <main class="main">
