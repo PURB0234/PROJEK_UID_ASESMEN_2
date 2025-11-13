@@ -1,4 +1,11 @@
-
+:root {
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --primary: #2563eb;
+  --accent: #f97316;
+  --soft: #eef2ff;
+}
 .welcome_container{
     display: flex; flex-direction: row;
     justify-content: center;
