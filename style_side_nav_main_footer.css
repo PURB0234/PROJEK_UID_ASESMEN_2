@@ -145,7 +145,24 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: #3366cc;
+  /* background-color: #3366cc; */
+}
+
+.button_profile {
+  border: none;
+  background-color: #fff;
+}
+
+#menu {
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 15px;
+  width: 150px;
+  padding: 13px;
+  align-items: center;
+  top: 50px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  list-style: none;
 }
 
 .main {
