@@ -16,7 +16,7 @@
 .stepup{
     width: 100%;
     min-height: 100vh;
-    background-image: url("walking.jpg");
+    background-image: url("../assets/images/walking.jpg");
     background-position: center;
     background-size: cover;
     overflow: hidden;
