@@ -92,12 +92,17 @@
     height: 40px;
 }
 .percent_icon{
-    align-content: center;
-    margin: 10px;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.percent_icon img{
     border: 1px solid #FF8C00FF;
-    border-radius: 6px;
     background-color: #FF8C00FF;
+    border-radius: 8px;
+    padding: 10px;
+    align-self: center;
+    width: 40px;
+    height: 40px;
 }
 .graphic_container {
     display: flex;
@@ -146,11 +151,9 @@
     align-items: center;
     text-align: center;
 }
-.card_1 i{
-    color: #3366CCFF;
-    top: 16px;
-    left: 108px;
-    font-size: 32px;
+.card_1 img{
+    width: 32px;
+    height: 32px;
 }
 .card_1 p{
     font-family: Inter, sans-serif;
@@ -170,11 +173,9 @@
     align-items: center;
     text-align: center;
 }
-.card_2 i{
-    color: #3366CCFF;
-    top: 16px;
-    left: 108px;
-    font-size: 32px;
+.card_2 img{
+    width: 32px;
+    height: 32px;
 }
 .card_2 p{
     font-family: Inter, sans-serif;
@@ -194,11 +195,9 @@
     align-items: center;
     text-align: center;
 }
-.card_3 i{
-    color: #3366CCFF;
-    top: 16px;
-    left: 108px;
-    font-size: 32px;
+.card_3 img{
+    width: 32px;
+    height: 32px;
 }
 .card_3 p{
     font-family: Inter, sans-serif;
@@ -218,11 +217,9 @@
     align-items: center;
     text-align: center;
 }
-.card_4 i{
-    color: #3366CCFF;
-    top: 16px;
-    left: 108px;
-    font-size: 32px;
+.card_4 img{
+    width: 32px;
+    height: 32px;
 }
 .card_4 p{
     font-family: Inter, sans-serif;
