@@ -30,19 +30,15 @@
 }
 
 .container_table {
-  /* height: 100vh; */
-  /* background-color: aqua; */
   margin-top: 20px;
 }
 .container_table table {
   width: 100%;
   border-collapse: collapse;
-}
-
-table {
   font-family: serif;
 }
-thead {
+
+.container_table thead {
   background-color: #ffffff;
   height: 50px;
   border: 1px solid rgb(214, 209, 209);
