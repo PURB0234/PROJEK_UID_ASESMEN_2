@@ -1,10 +1,10 @@
 :root {
   --bg: #f6f7fb;
   --card: #ffffff;
-  --muted: #6b7280;
-  --primary: #2563eb;
-  --accent: #f97316;
-  --soft: #eef2ff;
+  --paragraph: #6b7280;
+  --primary-btn: #2563eb;
+  --theme: #f97316;
+  --types: #eef2ff;
 }
 .welcome_container{
     display: flex; flex-direction: row;
@@ -154,7 +154,7 @@
 
 .card p {
   margin: 0;
-  color: var(--muted);
+  color: var(--paragraph);
   font-size: 13px;
 }
 
@@ -166,14 +166,14 @@
 }
 
 .pill {
-  background: var(--soft);
+  background: var(--types);
   padding: 6px 8px;
   border-radius: 10px;
   font-size: 12px;
 }
 
 .small-cta {
-  background: var(--primary);
+  background: var(--primary-btn);
   color: white;
   padding: 8px 10px;
   border-radius: 10px;
@@ -182,7 +182,7 @@
 }
 
 .badge {
-  background: var(--accent);
+  background: var(--theme);
   color: white;
   padding: 6px 8px;
   border-radius: 10px;
@@ -204,6 +204,10 @@
   border: 1px solid #eef4ff;
   text-align: center;
 }
+.reward img{
+    width: 32px;
+    height: 32px;
+}
 
 .reward h5 {
   margin: 8px 0 4px;
@@ -212,6 +216,6 @@
 
 .reward p {
   margin: 0;
-  color: var(--muted);
+  color: var(--paragraph);
   font-size: 13px;
 }

@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8db2d00d-4d47-486c-befa-4b49259712fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/icon/badge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon/medal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon/sparkler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icon/trophy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/medals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/people.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon/people.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/sparkles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon/target_bullseye.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/event.html" beforeDir="false" afterPath="$PROJECT_DIR$/event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/event_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/event_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,32 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.dashboard.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.event.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.leaderboard_page.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marie/WebstormProjects/StepUp/PROJEK_UID_ASESMEN_2&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.dashboard.html.executor": "Run",
+    "JavaScript Debug.event.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.leaderboard_page.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/marie/WebstormProjects/StepUp/PROJEK_UID_ASESMEN_2/assets/icon",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marie\WebstormProjects\StepUp\PROJEK_UID_ASESMEN_2\assets\icon" />
       <recent name="C:\Users\marie\WebstormProjects\StepUp\PROJEK_UID_ASESMEN_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -92,7 +105,8 @@
       <workItem from="1762684414671" duration="8746000" />
       <workItem from="1762747664900" duration="15370000" />
       <workItem from="1763010947745" duration="1804000" />
-      <workItem from="1763012789635" duration="7484000" />
+      <workItem from="1763012789635" duration="8937000" />
+      <workItem from="1763196145847" duration="2715000" />
     </task>
     <servers />
   </component>
